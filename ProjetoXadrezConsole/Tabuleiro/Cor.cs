@@ -4,9 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjetoXadrezConsole.Tabuleiro
+namespace tabuleiro
 {
-    internal class Cor
+    enum Cor
     {
+        Branca,
+        Preta,
+        Amarela,
+        Azul,
+        Vermelha,
+        Verde,
+        Laranja
     }
 }
